@@ -215,11 +215,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">독서</td><td>교과서:<br>올림포스:<br>모의고사:</td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>교과서:<br>올림포스:<br>모의고사:</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">독서</td><td>교과서: 1. 독서의 본질, 3. 독서의 방법 <br>올림포스:<br>모의고사:</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>교과서: 1. 함수의 극한과 연속 ~ 2. 미분(미분계수와 도함수)<br>올림포스:<br>모의고사:</td></tr>
           <tr class="border-b"><td class="px-3 py-2 font-medium">정법</td><td></td></tr>
           <tr class="border-b"><td class="px-3 py-2 font-medium">윤사</td><td></td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">진로영어</td><td></td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">확률과 통계</td><td>교과서: 사건의 동립과 종속 ~ 이항분포</td></tr>
           <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 (장문 문항 출제❌)<br>2. 25학년도 9월 전국연합 18~40번<br>3. 외부지문 5문제
             </td>
           </tr>
