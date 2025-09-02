@@ -167,8 +167,8 @@
   
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
-  <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day</h2>
-  <ul id="dday-list" class="mt-2 space-y-1"></ul>
+  <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day </h2>
+  <ul id="dday-list" class="mt-2 space-y-0"></ul>
 </div>
 
 <script>
