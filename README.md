@@ -223,7 +223,7 @@
           <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 (장문 문항 출제❌)<br>2. 25학년도 9월 전국연합 18~40번<br>3. 외부지문 5문제
             </td>
           </tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원 해수의 성질</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원. 해수의 성질</td></tr>
           <tr><td class="px-3 py-2 font-medium">물리</td><td>1단원. 역학과 에너지</td></tr>
         </tbody>
       </table>
