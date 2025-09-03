@@ -54,6 +54,9 @@
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">담요 다리에만 덮고 추우면 체육복 후드 입기</p>
           </li>
+          <li class="p-3 rounded-xl border bg-pink-50">
+            <p class="mt-0.5 text-base">책상 위 항상 깔끔히✨</p>
+          </li>
         </ul>
       </section>
       <!-- 다가오는 일정 -->
@@ -61,11 +64,6 @@
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">다가오는 일정🤍</h2>
         <ol class="mt-4 space-y-3">
-          <li class="p-3 rounded-xl border bg-pink-50">
-            <div class="text-sm text-pink-500">2025-09-03</div>
-            <div class="font-medium">9월 모의고사</div>
-            <div class="text-sm text-pink-700">야자 없음!</div>
-          </li>
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-08</div>
             <div class="font-medium">일본어 수행평가</div>
