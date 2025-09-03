@@ -233,10 +233,23 @@
   <section class="bg-white rounded-2xl shadow p-6">
     <h3 class="font-bold text-pink-600">시험공부 참고자료🤍</h3>
     <ul class="mt-2 space-y-1">
-      <li> 오은지쌤 독서 해설 강의🧡🍊:
-1. https://youtube.com/watch?v=75pzWRiKqyE&si=YvHi6YpvLo7t4Lne</li>
-2. https://youtube.com/watch?v=bHFxqPdb6pw&si=EN_H21Zf4lFSMlQj</li>
-3. https://youtube.com/watch?v=ZNWJjvwaGOo&si=5W4Q150-AjB1Pgmf</li>
+      <li> 오은지쌤 독서 해설 강의🧡🍊 (2025 9월 국어 모의고사)
+     <div class="space-y-3">
+  <a href="https://youtu.be/75pzWRiKqyE" target="_blank" 
+     class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+    📘 16~21번
+  </a>
+  <a href="https://youtu.be/bHFxqPdb6pw" target="_blank" 
+     class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+    📗 22~26번
+  </a>
+  <a href="https://youtu.be/ZNWJjvwaGOo" target="_blank" 
+     class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+    📙 34~37번
+  </a>
+</div>
+          
+</a>
     </ul>
   </section>
   </div>
