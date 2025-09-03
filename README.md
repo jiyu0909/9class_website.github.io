@@ -57,6 +57,9 @@
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">책상 위 항상 깔끔히✨</p>
           </li>
+          <li class="p-3 rounded-xl border bg-pink-50">
+            <p class="mt-0.5 text-base">인정결, 결석 신고서 당일에 나이스에 업로드하기</p>
+          </li>
         </ul>
       </section>
       <!-- 다가오는 일정 -->
