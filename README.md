@@ -230,6 +230,13 @@
       </table>
     </div>
   </section>
+  <section class="bg-white rounded-2xl shadow p-6">
+          <h2 class="text-2xl font-bold text-pink-700">시험 공부 참고 자료🤍</h2>
+          <iframe src="1. https://youtube.com/watch?v=75pzWRiKqyE&si=YvHi6YpvLo7t4Lne ,
+2. https://youtube.com/watch?v=bHFxqPdb6pw&si=EN_H21Zf4lFSMlQj,
+3. https://youtube.com/watch?v=ZNWJjvwaGOo&si=5W4Q150-AjB1Pgmf"
+                  class="w-full h-[400px] mt-4 rounded-xl border"
+                  frameborder="0"></iframe>
 
   <!-- 푸터 -->
   <footer class="text-center text-pink-600 text-sm mt-6">
