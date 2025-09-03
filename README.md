@@ -36,10 +36,10 @@
 
   
   <!-- 헤더 -->
-  <header class="sticky top-0 bg-white/70 backdrop-blur shadow-md py-3 px-4 flex justify-center z-10">
+  <header class="sticky top-0 bg-white/70 backdrop-blur shadow-md py-4,px-6 flex justify-center z-10">
     <h1 class="text-2xl font-bold text-pink-600">📚 2-9반 알리미</h1>
   </header>
-  <main class="max-w-4xl mx-auto p-4 space-y-4">
+  <main class="max-w-4xl mx-auto p-4 space-y-6">
 
       <!-- 은지쌤 말씀 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
@@ -159,12 +159,12 @@
       <li>7교시: -</li>
     </ul>
   </div>
-  <section class="bg-white rounded-2xl shadow p-6">
+  <section
+    class="bg-white rounded-2xl shadow p-6">
           <h2 class="text-2xl font-bold text-pink-700">급식🤍</h2>
           <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
                   class="w-full h-[400px] mt-4 rounded-xl border"
                   frameborder="0"></iframe>
-    </main>
   
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
@@ -248,11 +248,7 @@
     📙 34~37번
   </a>
 </div>
-          
-</a>
-    </ul>
-  </section>
-  </div>
+
   <!-- 푸터 -->
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
