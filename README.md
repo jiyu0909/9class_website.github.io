@@ -225,6 +225,7 @@
   </div>
   </div>
 </section>
+</script>
   document.addEventListener("DOMContentLoaded", () => {
     const today = new Date().toISOString().split("T")[0]; 
     // 오늘 날짜 "YYYY-MM-DD" 형식
