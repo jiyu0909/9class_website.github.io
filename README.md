@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
  </div>
   <!-- 시험 범위 -->
-  <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
+  <section class="lg:col-span-3 bg-white rounded-2xl shadow p-2 mt-2">
     <h2 class="text-2xl font-bold text-pink-700 mb-3">시험 범위 🤍</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-left border rounded-xl">
