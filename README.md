@@ -162,7 +162,7 @@
   <section
     class="bg-white rounded-2xl shadow p-6">
           <h2 class="text-2xl font-bold text-pink-700">급식🤍</h2>
-          <iframe src="https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830"
+          <iframe src="[https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830](https://www.neisplus.kr/csp-std/#/std-edi/edi-sif/edi-sif-sm020)"
                   class="w-full h-[400px] mt-4 rounded-xl border"
                   frameborder="0"></iframe>
   
