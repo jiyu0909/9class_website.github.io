@@ -151,18 +151,19 @@
   </div>
 <section class="bg-white rounded-2xl shadow p-6">
   <h2 class="text-2xl font-bold text-pink-700 mb-4">오늘의 급식 🤍</h2>
-  <div id="meal-container" class="space-y-4 mt-4 text-sm">
+  <div id="meal-container" class="space-y-4 mt-4 text-sm"> 
+    <!-- 9월 5일 -->
     <div class="meal-box hidden" data-date="2025-09-05">
       <h3 class="font-bold text-pink-600">2025-09-05</h3>
       <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
       <ul class="mt-1 space-y-1">
         <li>흑미기장밥</li>
         <li>들깨삼계탕</li>
-        <li>갈비맛찐만두</li> 
-      <li>오이고추쌈장무침</li>
-      <li>가을노란호박전</li>
-      <li>깍두기</li>
-      <li>친환경 샤인머스캣</li>
+        <li>갈비맛찐만두</li>
+        <li>오이고추쌈장무침</li>
+        <li>가을노란호박전</li>
+        <li>깍두기</li>
+        <li>친환경 샤인머스캣</li>
       </ul>
       <h4 class="font-semibold mt-2 text-green-600">석식</h4>
       <ul class="mt-1 space-y-1">
@@ -199,7 +200,7 @@
         <li>친환경 거봉</li>
       </ul>
     </div>
-        <!-- 9월 9일 -->
+    <!-- 9월 9일 -->
     <div class="meal-box hidden" data-date="2025-09-09">
       <h3 class="font-bold text-pink-600">2025-09-09</h3>
       <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
@@ -222,9 +223,30 @@
         <li>요거톡 초코볼&크런치</li>
         <li>일식달걀찜</li>
       </ul>
-  </div>
+    </div>
+
   </div>
 </section>
+
+<!-- 스크립트 -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const today = new Date().toISOString().split("T")[0]; 
+    const boxes = document.querySelectorAll(".meal-box");
+    let found = false;
+
+    boxes.forEach(box => {
+      if (box.dataset.date === today) {
+        box.classList.remove("hidden");
+        found = true;
+      }
+    });
+
+    if (!found) {
+      document.getElementById("meal-container").innerHTML =
+        "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
+    }
+  });
 </script>
   document.addEventListener("DOMContentLoaded", () => {
     const today = new Date().toISOString().split("T")[0]; 
