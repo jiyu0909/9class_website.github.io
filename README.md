@@ -159,13 +159,51 @@
       <li>7교시: -</li>
     </ul>
   </div>
-  <section
-    class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-2xl font-bold text-pink-700">급식🤍</h2>
-          <iframe src="[https://school.gyo6.net/djghs/ad/fm/foodmenu/selectFoodMenuView.do?mi=115830](https://www.neisplus.kr/csp-std/#/std-edi/edi-sif/edi-sif-sm020)"
-                  class="w-full h-[400px] mt-4 rounded-xl border"
-                  frameborder="0"></iframe>
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>급식표</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background-color: #f2f2f2; }
+  </style>
+<body>
+  <h1>급식표🤍</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>급식일자</th>
+        <th>식사명</th>
+        <th>요리명</th>
+        <th>칼로리정보</th>
+      </tr>
+    </thead>
+    <tbody id="meal-table">
+      <!-- JSON 내용이 여기 들어감 -->
+    </tbody>
+  </table>
+
+  <script>
+    fetch('lunch.json') // meals.json 파일이랑 같은 폴더에 있어야 함
+      .then(response => response.json())
+      .then(meals => {
+        const tableBody = document.getElementById('meal-table');
+        meals.forEach(meal => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${meal.급식일자}</td>
+            <td>${meal.식사명}</td>
+            <td>${meal.요리명}</td>
+            <td>${meal.칼로리정보 || '-'}</td>
+          `;
+          tableBody.appendChild(row);
+        });
+      })
+      .catch(err => console.error('JSON 불러오기 실패:', err));
+  </script>
+</body>
+</html>
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
   <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day </h2>
