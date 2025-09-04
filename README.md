@@ -151,7 +151,7 @@
   </div>
 <section class="bg-white rounded-2xl shadow p-6">
   <h2 class="text-2xl font-bold text-pink-700 mb-4">오늘의 급식 🤍</h2>
-  <div id="meal-container" class="space-y-4 mt-4 text-sm"> 
+  <div id="meal-container" class="space-y-4 mt-4 text-sm">
     <!-- 9월 5일 -->
     <div class="meal-box hidden" data-date="2025-09-05">
       <h3 class="font-bold text-pink-600">2025-09-05</h3>
@@ -224,52 +224,28 @@
         <li>일식달걀찜</li>
       </ul>
     </div>
-
-  </div>
-</section>
-
-<!-- 스크립트 -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const today = new Date().toISOString().split("T")[0]; 
-    const boxes = document.querySelectorAll(".meal-box");
-    let found = false;
-
-    boxes.forEach(box => {
-      if (box.dataset.date === today) {
-        box.classList.remove("hidden");
-        found = true;
-      }
-    });
-
-    if (!found) {
-      document.getElementById("meal-container").innerHTML =
-        "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
-    }
-  });
-</script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const today = new Date().toISOString().split("T")[0]; 
-    // 오늘 날짜 "YYYY-MM-DD" 형식
-    const boxes = document.querySelectorAll(".meal-box");
-    let found = false;
-    boxes.forEach(box => {
-      if (box.dataset.date === today) {
-        box.classList.remove("hidden");
-        found = true;
-      }
-    });
-      if (!found) {
-      document.getElementById("meal-container").innerHTML =
-        "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
-    }
-  });
-</script>
-      </ul>
-    </div> <!-- meal-box 끝 -->
   </div> <!-- meal-container 끝 -->
 </section> <!-- 오늘의 급식 섹션 끝 -->
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const today = new Date().toISOString().split("T")[0]; 
+  const boxes = document.querySelectorAll(".meal-box");
+  let found = false;
+
+  boxes.forEach(box => {
+    if (box.dataset.date === today) {
+      box.classList.remove("hidden");
+      found = true;
+    }
+  });
+
+  if (!found) {
+    document.getElementById("meal-container").innerHTML =
+      "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
+  }
+});
+</script>
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
   <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day </h2>
