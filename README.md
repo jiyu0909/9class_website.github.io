@@ -59,7 +59,7 @@
       </section>
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">다가오는 일정🤍</h2>
-        <ol class="mt-4 space-y-3">
+        <ol class="mt-4 space-y-4">
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-08</div>
             <div class="font-medium">일본어 수행평가</div>
@@ -330,11 +330,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <li> 이우진쌤 문학 해설 강의💞 (2025 9월 국어 모의고사)
      <div class="space-y-3">
   <a href="https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB" target="_blank" 
-     class="block bg-pink-500 text-white px-2 py-6 rounded-lg shadow hover:bg-pink-600">
+     class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
     📘 2025 9월 고2 전국연합학력평가
   </a>
-  <a 
-</div>
 </selection>
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
