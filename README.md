@@ -224,12 +224,10 @@
       </ul>
   </div>
 </section>
-<script>
   document.addEventListener("DOMContentLoaded", () => {
     const today = new Date().toISOString().split("T")[0]; 
     // 오늘 날짜 "YYYY-MM-DD" 형식
     const boxes = document.querySelectorAll(".meal-box");
-
     let found = false;
     boxes.forEach(box => {
       if (box.dataset.date === today) {
@@ -237,8 +235,7 @@
         found = true;
       }
     });
-
-    if (!found) {
+      if (!found) {
       document.getElementById("meal-container").innerHTML =
         "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
     }
