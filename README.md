@@ -223,8 +223,8 @@
         <li>일식달걀찜</li>
       </ul>
   </div>
+  </div>
 </section>
-    <script>
   document.addEventListener("DOMContentLoaded", () => {
     const today = new Date().toISOString().split("T")[0]; 
     // 오늘 날짜 "YYYY-MM-DD" 형식
@@ -242,6 +242,11 @@
     }
   });
 </script>
+      </ul>
+    </div> <!-- meal-box 끝 -->
+  </div> <!-- meal-container 끝 -->
+</section> <!-- 오늘의 급식 섹션 끝 -->
+
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
   <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day </h2>
@@ -278,6 +283,7 @@
     ddayList.appendChild(li);
   });
 </script>
+ </div>
   <!-- 시험 범위 -->
   <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
     <h2 class="text-2xl font-bold text-pink-700 mb-3">시험 범위 🤍</h2>
@@ -322,6 +328,7 @@
     📙 34~37번
   </a>
 </div>
+</selection>
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
   </footer>
