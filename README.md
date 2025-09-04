@@ -159,51 +159,102 @@
       <li>7교시: -</li>
     </ul>
   </div>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>급식표</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
-    th { background-color: #f2f2f2; }
-  </style>
-<body>
-  <h1>급식표🤍</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>급식일자</th>
-        <th>식사명</th>
-        <th>요리명</th>
-        <th>칼로리정보</th>
-      </tr>
-    </thead>
-    <tbody id="meal-table">
-      <!-- JSON 내용이 여기 들어감 -->
-    </tbody>
-  </table>
+<section class="bg-white rounded-2xl shadow p-6">
+  <h2 class="text-2xl font-bold text-pink-700 mb-4">오늘의 급식 🤍</h2>
+  <div id="meal-container" class="space-y-4 mt-4 text-sm">
+    <div class="meal-box hidden" data-date="2025-09-05">
+      <h3 class="font-bold text-pink-600">2025-09-05</h3>
+      <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>흑미기장밥</li>
+        <li>들깨삼계탕</li>
+        <li>갈비맛찐만두</li> 
+      <li>오이고추쌈장무침</li>
+      <li>가을노란호박전</li>
+      <li>깍두기</li>
+      <li>친환경 샤인머스캣</li>
+      </ul>
+      <h4 class="font-semibold mt-2 text-green-600">석식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>콩나물비빔밥&부추양념장</li>
+        <li>근대된장국</li>
+        <li>샐러드</li>
+        <li>다시마채무침</li>
+        <li>뿌링뿌링돈가스&감자튀김</li>
+        <li>배추김치</li>
+        <li>마시는 요거트 런</li>
+      </ul>
+    </div>
+    <!-- 9월 8일 -->
+    <div class="meal-box hidden" data-date="2025-09-08">
+      <h3 class="font-bold text-pink-600">2025-09-08</h3>
+      <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>오색현미밥</li>
+        <li>한우들깨미역국</li>
+        <li>멸치꽈리고추조림</li>
+        <li>새우고기완자전</li>
+        <li>바베큐치킨스테이크&구운야채</li>
+        <li>배추김치</li>
+        <li>친환경멜론</li>
+      </ul>
+      <h4 class="font-semibold mt-2 text-green-600">석식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>혼합잡곡밥</li>
+        <li>병천식순대국&소면</li>
+        <li>오이고추쌈장무침</li>
+        <li>부추겉절이</li>
+        <li>광장시장완자전&양파절임소스</li>
+        <li>깍두기</li>
+        <li>친환경 거봉</li>
+      </ul>
+    </div>
+        <!-- 9월 9일 -->
+    <div class="meal-box hidden" data-date="2025-09-09">
+      <h3 class="font-bold text-pink-600">2025-09-09</h3>
+      <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>찰흑미밥</li>
+        <li>꽃게탕</li>
+        <li>동인동찜갈비</li>
+        <li>참나물무침</li>
+        <li>칠리소스새우튀김</li>
+        <li>배추김치</li>
+        <li>친환경사과</li>
+      </ul>
+      <h4 class="font-semibold mt-2 text-green-600">석식</h4>
+      <ul class="mt-1 space-y-1">
+        <li>찹쌀밥</li>
+        <li>강릉식짬뽕국&중화면</li>
+        <li>반달단무지</li>
+        <li>쫄깃바삭닭가슴살 꿔바로우</li>
+        <li>배추김치</li>
+        <li>요거톡 초코볼&크런치</li>
+        <li>일식달걀찜</li>
+      </ul>
+  </div>
+</section>
 
-  <script>
-    fetch('lunch.json') // meals.json 파일이랑 같은 폴더에 있어야 함
-      .then(response => response.json())
-      .then(meals => {
-        const tableBody = document.getElementById('meal-table');
-        meals.forEach(meal => {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${meal.급식일자}</td>
-            <td>${meal.식사명}</td>
-            <td>${meal.요리명}</td>
-            <td>${meal.칼로리정보 || '-'}</td>
-          `;
-          tableBody.appendChild(row);
-        });
-      })
-      .catch(err => console.error('JSON 불러오기 실패:', err));
-  </script>
-</body>
-</html>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const today = new Date().toISOString().split("T")[0]; 
+    // 오늘 날짜 "YYYY-MM-DD" 형식
+    const boxes = document.querySelectorAll(".meal-box");
+
+    let found = false;
+    boxes.forEach(box => {
+      if (box.dataset.date === today) {
+        box.classList.remove("hidden");
+        found = true;
+      }
+    });
+
+    if (!found) {
+      document.getElementById("meal-container").innerHTML =
+        "<p class='text-gray-500'>오늘 급식 정보가 없습니다.</p>";
+    }
+  });
+</script>
 <!-- 시험 D-Day -->
 <div class="bg-white rounded-xl shadow p-4 mt-4 text-sm">
   <h2 class="font-bold text-pink-600 text-lg">📅 시험 D-Day </h2>
