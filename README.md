@@ -344,6 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
   </footer>
+  
   </body>
-        </html>
+  </html>
 
