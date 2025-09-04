@@ -14,7 +14,6 @@
       font-family: 'Gonici';
       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/Gonici.woff2') format('woff2');
     }
-
     body {
       font-family: 'Gonici', 'Baloo 2', sans-serif;
       min-height: 100vh;
@@ -22,7 +21,6 @@
       background-size: 400% 400%;
       animation: gradient 20s ease infinite;
     }
-
     @keyframes gradient {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
@@ -33,14 +31,11 @@
 <body class="min-h-screen">
   <!-- 메인 -->
   <main class="max-w-4xl mx-auto p-4 space-y-4">
-
-  
   <!-- 헤더 -->
   <header class="sticky top-0 bg-white/70 backdrop-blur shadow-md py-4,px-6 flex justify-center z-10">
     <h1 class="text-2xl font-bold text-pink-600">📚 2-9반 알리미</h1>
   </header>
   <main class="max-w-4xl mx-auto p-4 space-y-6">
-
       <!-- 은지쌤 말씀 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">은지쌤의 말씀 🤍</h2>
@@ -62,8 +57,6 @@
           </li>
         </ul>
       </section>
-      <!-- 다가오는 일정 -->
-         <!-- 다가오는 일정 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">다가오는 일정🤍</h2>
         <ol class="mt-4 space-y-3">
@@ -91,9 +84,6 @@
           </li>
         </ol>
       </section>
-      
-
-<!-- 모바일 전용 (요일별 카드) --><!-- 모바일+PC 모두 보이게 -->
 <div class="space-y-4 mt-4 text-sm">
   <div class="bg-white rounded-xl shadow p-3">
     <h3 class="font-bold text-pink-600">월요일</h3>
@@ -234,7 +224,6 @@
       </ul>
   </div>
 </section>
-
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const today = new Date().toISOString().split("T")[0]; 
@@ -291,8 +280,6 @@
     ddayList.appendChild(li);
   });
 </script>
-
-
   <!-- 시험 범위 -->
   <section class="lg:col-span-3 bg-white rounded-1xl shadow p-2 mt-2">
     <h2 class="text-2xl font-bold text-pink-700 mb-3">시험 범위 🤍</h2>
@@ -337,8 +324,6 @@
     📙 34~37번
   </a>
 </div>
-
-  <!-- 푸터 -->
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
   </footer>
