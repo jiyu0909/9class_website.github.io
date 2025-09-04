@@ -327,11 +327,11 @@ document.addEventListener("DOMContentLoaded", () => {
     📙 34~37번
   </a>
        <ul class="mt-2 space-y-1">
-      <li> 이우진쌤 모의고사 해설 강의💞 (2025 9월 국어 모의고사)
+      <li> 이우진쌤 문학 해설 강의💞 (2025 9월 국어 모의고사)
      <div class="space-y-3">
   <a href="https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB" target="_blank" 
      class="block bg-pink-500 text-white px-2 py-6 rounded-lg shadow hover:bg-pink-600">
-    📘 2025 9월 고 전국연합학력평가
+    📘 2025 9월 고2 전국연합학력평가
   </a>
   <a 
 </div>
