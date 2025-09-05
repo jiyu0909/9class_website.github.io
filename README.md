@@ -67,11 +67,11 @@
       </div>
     </li>
     <!-- 김세원쌤 -->
-    <li> 김세원쌤 영어 모고 해설 강의💞
+    <li> 김세원쌤 영어 모고 해설 강의🐯
       <div class="space-y-3">
         <a href="[https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB](https://open.kakao.com/o/gO4vr1og)" target="_blank" 
            class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
-          🥰 2025 9월 고2 영어 전국연합학력평가
+          🩵 2025 9월 고2 영어 전국연합학력평가
         </a> 
       </div>
     </li>
