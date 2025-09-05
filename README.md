@@ -36,6 +36,48 @@
     <h1 class="text-2xl font-bold text-pink-600">📚 2-9반 알리미</h1>
   </header>
   <main class="max-w-4xl mx-auto p-4 space-y-6">
+      </section>
+  <section class="bg-white rounded-2xl shadow p-6">
+  <h3 class="font-bold text-pink-600">시험공부 참고자료🤍</h3>
+  <ul class="mt-2 space-y-1">
+    <!-- 오은지쌤 -->
+    <li> 오은지쌤 독서 해설 강의🧡🍊 (2025 9월 국어 모의고사)
+      <div class="space-y-3">
+        <a href="https://youtu.be/75pzWRiKqyE" target="_blank" 
+           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+          📘 16~21번
+        </a>
+        <a href="https://youtu.be/bHFxqPdb6pw" target="_blank" 
+           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+          📗 22~26번
+        </a>
+        <a href="https://youtu.be/ZNWJjvwaGOo" target="_blank" 
+           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+          📙 34~37번
+        </a>
+      </div>
+    </li>
+    <!-- 이우진쌤 -->
+    <li> 이우진쌤 문학 해설 강의💞 (2025 9월 국어 모의고사)
+      <div class="space-y-3">
+        <a href="https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB" target="_blank" 
+           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+          🥰 2025 9월 고2 전국연합학력평가
+        </a> 
+      </div>
+    </li>
+    <!-- 김세원쌤 -->
+    <li> 김세원쌤 영어 모고 해설 강의💞
+      <div class="space-y-3">
+        <a href="[https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB](https://open.kakao.com/o/gO4vr1og)" target="_blank" 
+           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
+          🥰 2025 9월 고2 영어 전국연합학력평가
+        </a> 
+      </div>
+    </li>
+
+  </ul>
+</section>
       <!-- 은지쌤 말씀 -->
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
         <h2 class="text-2xl font-bold text-pink-700">은지쌤의 말씀 🤍</h2>
@@ -308,39 +350,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </tbody>
       </table>
     </div>
-  </section>
-  <section class="bg-white rounded-2xl shadow p-6">
-  <h3 class="font-bold text-pink-600">시험공부 참고자료🤍</h3>
-  <ul class="mt-2 space-y-1">
-    <!-- 오은지쌤 -->
-    <li> 오은지쌤 독서 해설 강의🧡🍊 (2025 9월 국어 모의고사)
-      <div class="space-y-3">
-        <a href="https://youtu.be/75pzWRiKqyE" target="_blank" 
-           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
-          📘 16~21번
-        </a>
-        <a href="https://youtu.be/bHFxqPdb6pw" target="_blank" 
-           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
-          📗 22~26번
-        </a>
-        <a href="https://youtu.be/ZNWJjvwaGOo" target="_blank" 
-           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
-          📙 34~37번
-        </a>
-      </div>
-    </li>
-    <!-- 이우진쌤 -->
-    <li> 이우진쌤 문학 해설 강의💞 (2025 9월 국어 모의고사)
-      <div class="space-y-3">
-        <a href="https://www.youtube.com/playlist?list=PLr_xvqtyr_SYBmAwD-AXSumMbhYocbGDB" target="_blank" 
-           class="block bg-pink-500 text-white px-4 py-2 rounded-lg shadow hover:bg-pink-600">
-          🥰 2025 9월 고2 전국연합학력평가
-        </a> 
-      </div>
-    </li>
-
-  </ul>
-</section>
   <footer class="text-center text-pink-600 text-sm mt-6">
     제작: 20919 이지유
   </footer>
