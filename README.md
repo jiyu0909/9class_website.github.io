@@ -117,15 +117,6 @@
             <div class="text-sm text-pink-700">8문제 미리 알려주고 4~5문제 출제 예정</div>
           </li>
           <li class="p-3 rounded-xl border bg-pink-50">
-            <div class="text-sm text-pink-500">2025-09-04 ~ 2025-09-05</div>
-            <div class="font-medium">도서관 행사</div>
-            <div class="text-sm text-pink-700">책 읽기 활동</div>
-          </li>
-          <li class="p-3 rounded-xl border bg-pink-50">
-            <div class="text-sm text-pink-500">2025-09-10</div>
-            <div class="font-medium">2학년 영어듣기평가</div>
-          </li>
-          <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-18 ~ 2025-09-23</div>
             <div class="font-medium">2학기 중간 대비 시험지 공개</div>
           </li>
