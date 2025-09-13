@@ -243,27 +243,27 @@
       </ul>
     </div>
     <!-- 9월 9일 -->
-    <div class="meal-box hidden" data-date="2025-09-09">
-      <h3 class="font-bold text-pink-600">2025-09-09</h3>
+    <div class="meal-box hidden" data-date="2025-09-15">
+      <h3 class="font-bold text-pink-600">2025-09-15</h3>
       <h4 class="font-semibold mt-2 text-blue-600">중식</h4>
       <ul class="mt-1 space-y-1">
-        <li>찰흑미밥</li>
-        <li>꽃게탕</li>
-        <li>동인동찜갈비</li>
-        <li>참나물무침</li>
-        <li>칠리소스새우튀김</li>
+        <li>흥국쌀밥</li>
+        <li>경상도식소고기국</li>
+        <li>해물볶음우동</li>
+        <li>다시마채무침</li>
+        <li>순살치킨커틀릿</li>
         <li>배추김치</li>
-        <li>친환경사과</li>
+        <li>삼색과일꼬지</li>
       </ul>
       <h4 class="font-semibold mt-2 text-green-600">석식</h4>
       <ul class="mt-1 space-y-1">
-        <li>찹쌀밥</li>
-        <li>강릉식짬뽕국&중화면</li>
-        <li>반달단무지</li>
-        <li>쫄깃바삭닭가슴살 꿔바로우</li>
+        <li>찹쌀밥(작은밥)</li>
+        <li>쉬림프 갈릭오일파스타</li>
         <li>배추김치</li>
-        <li>요거톡 초코볼&크런치</li>
-        <li>일식달걀찜</li>
+        <li>삼색모듬피클</li>
+        <li>배추김치</li>
+        <li>치즈함박스테이크</li>
+        <li>브로콜리 크림스프, 바게트스틱</li>
       </ul>
     </div>
   </div> <!-- meal-container 끝 -->
@@ -341,8 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>1. 함수의 극한과 연속: 교과서 8~46p
 수학익힘책 148~151p
 올림포스 6~14p, 16~24p <br> 2. 미분(1. 미분계수와 도함수): 교과서 48~67p, 대단원평가 100p 1-4,11번 수학익힘책 152~153p 1-10번 올림포스 30~38p</td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">정법</td><td></td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">윤사</td><td></td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">일본어</td><td></td></tr>
           <tr class="border-b"><td class="px-3 py-2 font-medium">확률과 통계</td><td>2단원. 확률/ 2. 조건부확률 중
 02, 사건의 독립과 종속:교과서 57~60p
 중단원평가 61~63p 3,8-10,14번 대단원평가 67~68p 7-9,12-14번 수학익힘책 135p 18-21번<br> 3단원. 통계/1. 확률분포 중 01. 확률변수와 확률분포 02, 이산확률변수의 기댓값과 표준 03. 이항분포: 교과서 70~87p 중단원평가 100~101p 1-2,5-9번 대단원평가 120~121p 1-4,11-12번 수학익힘책 136p 1-6번 </td></tr>
