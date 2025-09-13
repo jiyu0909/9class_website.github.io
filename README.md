@@ -85,6 +85,12 @@
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">2학기 중간고사 준비! 열공하기~</p>
           </li>
+           <li class="p-3 rounded-xl border bg-pink-50">
+            <p class="mt-0.5 text-base">사복금지 ㅠ</p>
+          </li>
+           <li class="p-3 rounded-xl border bg-pink-50">
+            <p class="mt-0.5 text-base">이동수업 이동은 5분 전부터</p>
+          </li>
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">수업시간, 자습시간 잠자기 ❌</p>
           </li>
@@ -97,6 +103,9 @@
           <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">인정결, 결석 신고서 당일에 나이스에 업로드하기</p>
           </li>
+           <li class="p-3 rounded-xl border bg-pink-50">
+            <p class="mt-0.5 text-base">패드 사용 후 무조건 쉬는시간에 내기 딴짓하다 걸리면 일주일 압수!!!</p>
+          </li>
         </ul>
       </section>
       <section class="lg:col-span-3 bg-white rounded-2xl shadow p-6">
@@ -104,8 +113,8 @@
         <ol class="mt-4 space-y-4">
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-08</div>
-            <div class="font-medium">일본어 수행평가</div>
-            <div class="text-sm text-pink-700">히라가나 문장 읽기</div>
+            <div class="font-medium">물리 수행평가</div>
+            <div class="text-sm text-pink-700">8문제 미리 알려주고 4~5문제 출제 예정</div>
           </li>
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-04 ~ 2025-09-05</div>
