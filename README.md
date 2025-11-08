@@ -83,10 +83,10 @@
         <h2 class="text-2xl font-bold text-pink-700">은지쌤의 말씀 🤍</h2>
         <ul class="mt-4 space-y-4">
           <li class="p-3 rounded-xl border bg-pink-50">
-            <p class="mt-0.5 text-base">2학기 중간고사 준비! 열공하기~</p>
+            <p class="mt-0.5 text-base">2학기 기말고사 준비! 열공하기~</p>
           </li>
            <li class="p-3 rounded-xl border bg-pink-50">
-            <p class="mt-0.5 text-base">사복금지 ㅠ</p>
+            <p class="mt-0.5 text-base">사복은 마이 입고 입기!</p>
           </li>
            <li class="p-3 rounded-xl border bg-pink-50">
             <p class="mt-0.5 text-base">이동수업 이동은 5분 전부터</p>
@@ -113,16 +113,16 @@
         <ol class="mt-4 space-y-4">
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-08</div>
-            <div class="font-medium">물리 수행평가</div>
-            <div class="text-sm text-pink-700">8문제 미리 알려주고 4~5문제 출제 예정</div>
+            <div class="font-medium">국어, 확통 수행평가</div>
+            <div class="text-sm text-pink-700">게시판 프린트 확인하고 미리 대비하기</div>
           </li>
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-18 ~ 2025-09-23</div>
-            <div class="font-medium">2학기 중간 대비 시험지 공개</div>
+            <div class="font-medium">11월  20일 교과축전</div>
           </li>
           <li class="p-3 rounded-xl border bg-pink-50">
             <div class="text-sm text-pink-500">2025-09-25 ~ 2025-09-30</div>
-            <div class="font-medium">2학기 중간고사</div>
+            <div class="font-medium">11월 21일 축제제</div>
           </li>
         </ol>
       </section>
