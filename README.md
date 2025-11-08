@@ -297,8 +297,8 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>
   // 날짜는 YYYY-MM-DD (월 인덱스 실수 방지)
   const exams = [
-    { name: "2학기 중간고사", date: "2025-09-25" }, // 09월 25일
-    { name: "2학기 기말고사", date: "2025-12-11" }  // 12월 11일
+   
+    { name: "2학기 기말고사", date: "2025-12-9" }  // 12월9일
   ];
 
   // 오늘을 자정으로 고정
@@ -337,19 +337,17 @@ document.addEventListener("DOMContentLoaded", () => {
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">독서</td><td>교과서: 1. 독서의 본질, 3. 독서의 방법 <br>올림포스:<br>모의고사:</td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>1. 함수의 극한과 연속: 교과서 8~46p
-수학익힘책 148~151p
-올림포스 6~14p, 16~24p <br> 2. 미분(1. 미분계수와 도함수): 교과서 48~67p, 대단원평가 100p 1-4,11번 수학익힘책 152~153p 1-10번 올림포스 30~38p</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">독서</td><td>교과서: </td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">수학2</td><td>
+</td></tr>
           <tr class="border-b"><td class="px-3 py-2 font-medium">일본어</td><td></td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">확률과 통계</td><td>2단원. 확률/ 2. 조건부확률 중
-02, 사건의 독립과 종속:교과서 57~60p
-중단원평가 61~63p 3,8-10,14번 대단원평가 67~68p 7-9,12-14번 수학익힘책 135p 18-21번<br> 3단원. 통계/1. 확률분포 중 01. 확률변수와 확률분포 02, 이산확률변수의 기댓값과 표준 03. 이항분포: 교과서 70~87p 중단원평가 100~101p 1-2,5-9번 대단원평가 120~121p 1-4,11-12번 수학익힘책 136p 1-6번 </td></tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>1. 리딩마스터 부교재: p.10~p.35 하프 모의고사 1회~4회 4번까지 (장문 문항 출제❌)<br>2. 25학년도 9월 전국연합 18~40번<br>3. 외부지문 5문제
+          <tr class="border-b"><td class="px-3 py-2 font-medium">확률과 통계</td><td>
+</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">영어2</td><td>
             </td>
           </tr>
-          <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td>1단원. 지구의 변동 ~ 3단원. 해수의 성질</td></tr>
-          <tr><td class="px-3 py-2 font-medium">물리</td><td>1단원. 역학과 에너지</td></tr>
+          <tr class="border-b"><td class="px-3 py-2 font-medium">지구과학</td><td></td></tr>
+          <tr><td class="px-3 py-2 font-medium">물리</td><td></td></tr>
         </tbody>
       </table>
     </div>
