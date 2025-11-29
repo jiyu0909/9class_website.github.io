@@ -113,70 +113,64 @@
             <div class="lg:col-span-2 space-y-6">
 
                 <section class="card bg-white rounded-2xl shadow-xl p-6">
-                    <h2 class="text-2xl font-bold text-pink-700 border-b pb-2 mb-4">🕒 주간 시간표</h2>
-                    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-4 text-sm">
-                        <div id="mon" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
-                            <h3 class="font-bold text-pink-600 text-lg">월요일</h3>
-                            <ul class="mt-2 space-y-1">
-                                <li>1교시: H.R</li>
-                                <li>2교시: 독서</li>
-                                <li>3교시: 영어2</li>
-                                <li>4교시: 2-A</li>
-                                <li>5교시: 일본어</li>
-                                <li>6교시: 2-B</li>
-                                <li>7교시: 체육</li>
-                            </ul>
-                        </div>
-                        <div id="tue" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
-                            <h3 class="font-bold text-pink-600 text-lg">화요일</h3>
-                            <ul class="mt-2 space-y-1">
-                                <li>1교시: 확률과 통계</li>
-                                <li>2교시: 2-A</li>
-                                <li>3교시: 수학2</li>
-                                <li>4교시: 영어2</li>
-                                <li>5교시: 2-B</li>
-                                <li>6교시: 2-C</li>
-                                <li>7교시: 독서</li>
-                            </ul>
-                        </div>
-                        <div id="wed" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
-                            <h3 class="font-bold text-pink-600 text-lg">수요일</h3>
-                            <ul class="mt-2 space-y-1">
-                                <li>1교시: 2-A</li>
-                                <li>2교시: 수학2</li>
-                                <li>3교시: 독서</li>
-                                <li>4교시: 2-B</li>
-                                <li>5교시: 진로</li>
-                                <li>6교시: 영어2</li>
-                                <li>7교시: 2-C</li>
-                            </ul>
-                        </div>
-                        <div id="thu" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
-                            <h3 class="font-bold text-pink-600 text-lg">목요일</h3>
-                            <ul class="mt-2 space-y-1">
-                                <li>1교시: 독서</li>
-                                <li>2교시: 확률과 통계</li>
-                                <li>3교시: 2-C</li>
-                                <li>4교시: 일본어</li>
-                                <li>5교시: 2-A</li>
-                                <li>6교시: 수학2</li>
-                                <li>7교시: -</li>
-                            </ul>
-                        </div>
-                        <div id="fri" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
-                            <h3 class="font-bold text-pink-600 text-lg">금요일</h3>
-                            <ul class="mt-2 space-y-1">
-                                <li>1교시: 영어2</li>
-                                <li>2교시: 2-C</li>
-                                <li>3교시: 수학2</li>
-                                <li>4교시: 2-B</li>
-                                <li>5교시: 창체</li>
-                                <li>6교시: 창체</li>
-                                <li>7교시: -</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+    <h2 class="text-2xl font-bold text-pink-700 border-b pb-2 mb-4">🕒 주간 시간표</h2>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-4 text-sm">
+        
+        <div id="mon" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
+            <h3 class="font-bold text-pink-600 text-lg">월요일</h3>
+            <ul class="mt-2 space-y-1">
+                <li>H.R</li>
+                <li>독서</li>
+                <li>영어2</li>
+                <li>2-A</li>
+                <li>일본어</li>
+                <li>2-B</li>
+                <li>체육</li>
+            </ul>
+        </div>
+        
+        <div id="tue" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
+            <h3 class="font-bold text-pink-600 text-lg">화요일</h3>
+            <ul class="mt-2 space-y-1">
+                <li>확률과 통계</li>
+                <li>2-A</li>
+                <li>수학2</li>
+                <li>영어2</li>
+                <li>2-B</li>
+                <li>2-C</li>
+                <li>독서</li>
+            </ul>
+        </div>
+        
+        <div id="wed" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
+            <h3 class="font-bold text-pink-600 text-lg">수요일</h3>
+            <ul class="mt-2 space-y-1">
+                <li>2-A</li>
+                <li>수학2</li>
+                <li>독서</li>
+                <li>2-B</li>
+                <li>진로</li>
+                <li>영어2</li>
+                <li>2-C</li>
+            </ul>
+        </div>
+        
+        <div id="thu" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
+            <h3 class="font-bold text-pink-600 text-lg">목요일</h3>
+            <ul class="mt-2 space-y-1">
+                <li>독서</li>
+                <li>확률과 통계</li>
+                <li>2-C</li>
+                <li>일본어</li>
+                <li>2-A</li>
+                <li>수학2</li>
+                <li>(자율/빈 시간)</li>
+            </ul>
+        </div>
+        
+        <div id="fri" class="timetable-box bg-white rounded-xl shadow p-3 border border-gray-100">
+            <h3 class="font-bold text-pink-600 text-lg">금요일</h3>
+            <ul class="mt-2 space-y-
 
                 <section class="card bg-white rounded-2xl shadow-xl p-6">
                     <h2 class="text-2xl font-bold text-pink-700 border-b pb-2 mb-4">📚 시험공부 참고자료</h2>
