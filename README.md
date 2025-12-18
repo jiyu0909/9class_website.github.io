@@ -94,44 +94,22 @@
         <nav class="sticky top-0 z-50 bg-white/60 backdrop-blur-xl border-b border-black/5">
             <div class="max-w-[980px] mx-auto px-6 h-[52px] flex items-center justify-between">
                 <span class="font-black text-xl tracking-tight">2-9</span>
-                <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Suneung Countdown</span>
+                <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">수능 Countdown</span>
             </div>
         </nav>
 
         <main class="max-w-[980px] mx-auto px-6 py-12 space-y-10">
-            <section class="text-center py-10">
-                <p class="text-gray-500 text-sm font-bold tracking-[0.4em] uppercase mb-4">Target: 2027. 11. 19</p>
-                <div id="dday-display" class="text-[100px] md:text-[160px] font-black tracking-tighter leading-none mb-6">D-???</div>
-                <p class="text-2xl font-medium text-gray-400 italic">"Prove them wrong."</p>
-            </section>
-
-            <section class="glass-panel p-10 md:p-16 border-l-[10px] border-blue-500 shadow-lg">
-                <span class="text-blue-600 font-bold text-sm tracking-widest mb-6 block uppercase">From. Teacher Choi</span>
-                <h2 class="text-3xl md:text-5xl font-black leading-[1.2] mb-10 tracking-tight text-[#1d1d1f]">
-                    "기말고사 고생 많았어! <br>지치지 말고 끝까지 함께 가보자. <br>너희는 생각보다 훨씬 더 단단하니까."
-                </h2>
-                <div class="flex items-center gap-4">
-                    <div class="w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-black text-2xl">최</div>
-                    <div>
-                        <p class="text-xl font-bold">최은지 선생님</p>
-                        <p class="text-gray-500 text-sm">2학년 9반 담임선생님</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="glass-panel p-10 shadow-lg">
-                <h3 class="text-3xl font-bold mb-10 tracking-tight">오늘의 식단 <span class="text-blue-500 text-sm font-normal ml-3">12월 1일 월요일</span></h3>
+            <section class="text금요일</span></h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="space-y-4">
                         <p class="text-xs font-black text-blue-500 tracking-widest uppercase">Lunch</p>
-                        <p class="text-2xl font-bold leading-relaxed">오색현미밥, 소고기배추된장국, <span class="text-blue-600">숯불닭갈비보쌈</span>, 노란호박전, 샤인머스켓 ✨</p>
+                        <p class="text-2xl font-bold leading-relaxed">혼합잡곡밥, 한우들깨미역국, <span class="text-blue-600">돈안심떡장조림</span>, 참나물무생채, 살살녹는 슈프림치킨, 배추김치, 뿌링클크림치즈볼, 멜론</p>
                     </div>
                     <div class="space-y-4">
                         <p class="text-xs font-black text-orange-500 tracking-widest uppercase">Dinner</p>
-                        <p class="text-2xl font-bold leading-relaxed">청차조밥, <span class="text-orange-600">병천식순대국</span>, 돈사태메추리알조림, 오징어야채초무침, 감귤 🍊</p>
+                        <p class="text-2xl font-bold leading-relaxed">강황쌀밥, 얼큰동태찌개 <span class="text-orange-600">매콤갑오징어볶음</span>, 언양식불고기전&상추파채무침, 배추김치, 요구르트</p>
                     </div>
-                </div>
-            </section>
+                </div>l            </section>
 
             <section class="glass-panel p-10 shadow-lg">
                 <h3 class="text-2xl font-bold mb-8 tracking-tight">주간 시간표</h3>
