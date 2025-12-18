@@ -25,10 +25,10 @@
         }
 
         .glass-panel {
-            background: rgba(255, 255, 255, 0.72) !important;
+            background: rgba(255, 255, 255, 0.75) !important;
             backdrop-filter: blur(25px) saturate(180%) !important;
             -webkit-backdrop-filter: blur(25px) saturate(180%) !important;
-            border: 1px solid rgba(255, 255, 255, 0.45);
+            border: 1px solid rgba(255, 255, 255, 0.5);
             border-radius: 28px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.03);
         }
@@ -50,13 +50,19 @@
 
     <div id="login-section" class="min-h-screen flex items-center justify-center p-6">
         <div class="w-full max-w-[380px] glass-panel p-12 text-center fade-in">
-            <h1 class="text-7xl font-bold text-[#e5e5ea] tracking-tighter mb-10 italic">Login</h1>
-            <div class="space-y-4">
+            <h1 class="text-7xl font-bold text-[#e5e5ea] tracking-tighter mb-8 italic">Login</h1>
+            
+            <div class="space-y-1 mb-8">
+                <p class="text-sm font-bold text-[#86868b]">209**으로 입력해 주세요</p>
+                <p class="text-[11px] text-[#aeaeb2]">(최은지 선생님은 20900)</p>
+            </div>
+
+            <div class="space-y-3">
                 <input id="login-number" type="text" placeholder="학번" class="w-full h-14 px-5 rounded-2xl bg-white/60 border border-gray-100 focus:bg-white outline-none text-center">
                 <input id="login-name" type="text" placeholder="이름" class="w-full h-14 px-5 rounded-2xl bg-white/60 border border-gray-100 focus:bg-white outline-none text-center">
-                <button onclick="checkLogin()" class="w-full h-14 bg-[#1d1d1f] text-white rounded-2xl font-bold mt-6 active:scale-95 transition-transform">입장하기</button>
+                <button onclick="checkLogin()" class="w-full h-14 bg-[#1d1d1f] text-white rounded-2xl font-bold mt-4 active:scale-95 transition-transform">입장하기</button>
             </div>
-            <p id="login-error" class="text-red-500 text-[11px] mt-6 hidden font-bold text-center">학번과 이름을 다시 확인해주세요.</p>
+            <p id="login-error" class="text-red-500 text-[11px] mt-6 hidden font-bold">다시 확인해 주세요.</p>
         </div>
     </div>
 
@@ -84,8 +90,8 @@
 
             <section class="glass-panel p-8 md:p-10">
                 <div class="flex items-baseline justify-between mb-10 border-b border-black/5 pb-6">
-                    <h3 class="text-2xl font-bold tracking-tight">오늘의 식단</h3>
-                    <span id="current-date-display" class="text-gray-400 font-bold text-xs">00월 00일 요일</span>
+                    <h3 class="text-2xl font-bold tracking-tight text-black">오늘의 식단</h3>
+                    <span id="current-date-display" class="text-gray-400 font-bold text-xs uppercase tracking-widest"></span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div>
@@ -113,6 +119,7 @@
 
     <script>
         const mealData = {
+            "2025-12-18": { lunch: ["식단 정보가 없습니다."], dinner: ["식단 정보가 없습니다."] },
             "2025-12-19": {
                 lunch: ["혼합잡곡밥", "한우들깨미역국", "돈안심떡장조림", "참나물무생채", "살살녹는 슈프림치킨", "뿌링클크림치즈볼", "멜론", "배추김치"],
                 dinner: ["강황쌀밥", "얼큰동태찌개", "매콤갑오징어볶음", "언양식불고기전 & 상추파채무침", "요구르트(런)", "배추김치"]
@@ -146,7 +153,7 @@
         function checkLogin() {
             const num = document.getElementById('login-number').value.trim();
             const name = document.getElementById('login-name').value.trim();
-            if(num.startsWith("209") && name.length >= 2) {
+            if((num === "20900" || num.startsWith("209")) && name.length >= 2) {
                 document.getElementById('login-section').style.display = 'none';
                 document.getElementById('main-content').style.display = 'block';
                 initPage();
@@ -174,7 +181,6 @@
             document.getElementById('lunch-list').innerHTML = todayMeal.lunch.map(item => `<li>${item}</li>`).join('');
             document.getElementById('dinner-list').innerHTML = todayMeal.dinner.map(item => `<li>${item}</li>`).join('');
         }
-
         document.addEventListener('keypress', (e) => { if(e.key === 'Enter') checkLogin(); });
     </script>
 </body>
