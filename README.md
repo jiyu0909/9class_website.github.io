@@ -107,11 +107,11 @@
 
             <section class="glass-panel p-8">
                 <div class="timetable-scroll">
-                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">월</span><ul class="text-xs space-y-2 text-gray-400"><li>독서</li><li>영어2</li><li>수학2</li><li>일어</li><li>체육</li></ul></div>
-                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">화</span><ul class="text-xs space-y-2 text-gray-400"><li>확통</li><li>수학2</li><li>영어2</li><li>독서</li><li>진로</li></ul></div>
-                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">수</span><ul class="text-xs space-y-2 text-gray-400"><li>수학2</li><li>독서</li><li>영어2</li><li>체육</li><li>일어</li></ul></div>
-                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">목</span><ul class="text-xs space-y-2 text-gray-400"><li>영독</li><li>수학2</li><li>음악</li><li>독서</li><li>영어2</li></ul></div>
-                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2 text-blue-600">금</span><ul class="text-xs space-y-2 text-gray-400"><li>일어</li><li>확통</li><li>독서</li><li>영어2</li><li>수학2</li></ul></div>
+                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">월</span><ul class="text-xs space-y-2 text-gray-400"><li>자습</li><li>독서</li><li>영어2</li><li>2-A</li><li>일본어</li><li>2-B</li><li>체육</li></ul></div>
+                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">화</span><ul class="text-xs space-y-2 text-gray-400"><li>확통</li><li>2-A</li><li>수학2</li><li>영어2</li><li>2-B</li><li>2-C</li><li>독서</li></ul></div>
+                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">수</span><ul class="text-xs space-y-2 text-gray-400"><li>2-A</li><li>수학2</li><li>독서</li><li>2-B</li><li>진로</li><li>영어2</li><li>2-C</li></ul></div>
+                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2">목</span><ul class="text-xs space-y-2 text-gray-400"><li>독서</li><li>확통</li><li>2-C</li><li>일본어</li><li>2-A</li><li>수학2</li></ul></div>
+                    <div class="day-box"><span class="block font-bold mb-4 border-b pb-2 text-blue-600">금</span><ul class="text-xs space-y-2 text-gray-400"><li>영어2</li><li>2-C</li><li>창체</li><li>창체</li><li>수학2</li><li>2-B</li></ul></div>
                 </div>
             </section>
         </main>
